@@ -16,7 +16,7 @@ pipeline {
         }
 	stage('Test') {
 		steps {
-			sh '/home/Sites/simple-node-js-react-npm-app/jenkins/script/test.sh'
+			sh './jenkins/scripts/test.sh'
 		}
 	}
     }
